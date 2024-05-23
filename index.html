@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shekhar-Developer Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: poppins;
+            border: 1px solid white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color: rgb(18, 18, 62);
+            border: 1px solid white;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(91, 135, 216);
+        }
+
+        .left {
+            font-size: 2rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+            margin: 100px 0;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 30px;
+
+        }
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        main hr {
+            border: 0px;
+            height: 1px;
+            background-color: rgb(100, 157, 227);
+            margin: 30px 80px;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+
+
+        }
+
+        .secondSection .box {
+            background-color: white;
+            width: 80vw;
+            margin: 55px;
+            height: 2px;
+            margin-bottom: 200px;
+            display: flex;
+        }
+
+
+        .secondSection .vertical {
+            background-color: white;
+            height: 60px;
+            width: 1px;
+            margin: 0 160px;
+        }
+
+        .secondSection .img-top {
+            height: 47px;
+            position: relative;
+            width: 47px;
+            top: -51px;
+            left: -21px;
+        }
+
+        .secondSection .vertical-title {
+            position: relative;
+            top: 16px;
+            left: -20px;
+            height: 20px;
+            width: 20px;
+        }
+
+        .secondSection .vertical-desc {
+            position: relative;
+            top: 54px;
+            left: -20px;
+            height: 20px;
+            width: 150px;
+            font-size: 8px;
+            color: gray;
+        }
+
+
+
+        .footer {
+            display: grid;
+            grid-template-columns: 50% 25% 25%;
+            background-color: rgb(27, 27, 95);
+            color: white;
+            padding: 50px;
+            border: 1px solid white;
+            text-align: center;
+
+            grid-template-areas:
+                "heading middle right"
+                "heading middle right"
+                "heading middle right";
+
+        }
+
+        .heading {
+
+            grid-area: heading;
+            color: rgb(130 36 217);
+            text-align: left;
+            font-size: 3rem;
+            text-decoration: underline;
+        }
+
+        .middle {
+            grid-area: middle;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .right {
+            grid-area: right;
+        }
+    </style>
+</head>
+
+<body class="parent">
+
+    <header>
+
+
+        <div class="first">
+            <nav>
+                <div class="left">Shekhar's Portfolio</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="/">Home</a> </li>
+                        <li><a href="/">About</a> </li>
+                        <li><a href="/">Services</a> </li>
+                        <li><a href="/">Projects</a> </li>
+                        <li><a href="/">Contact Me</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+    </header>
+    <main>
+        <div class="second">
+            <section class="firstsection">
+                <div class="leftsection">
+                    Hi,My Name Is <span class="purple">Shekhar </span>
+                    <div>and I Am a Passionate </div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightsection">
+                    <img src="C:\Users\shekh\Downloads\—Pngtree—developers are coding programs on_14867886.png" alt="">
+
+                </div>
+            </section>
+            <hr>
+
+            <section class="secondSection">
+                <span class="text-gray">What i have done so far</span>
+                <h1>Work Experience</h1>
+                <div class="box">
+                    <div class="vertical">
+                        <img class="img-top" src=C:\Users\shekh\Downloads\pngwing.com.png alt="">
+                        <div class="vertical-title">HTML Developer (2024)</div>
+                        <span>
+                            <div class="vertical-desc">
+                                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Voluptate
+                                    atque
+                                    accusamus vero facere saepe! Non quod quam vero impedit dicta quis veritatis magni
+                                    excepturi
+                                    harum, explicabo voluptatum, tenetur voluptates blanditiis.
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top" src="images/js.png.png" alt="">
+                        <div class="vertical-title">Javascript Developer (2024)</div>
+                        <span>
+                            <div class="vertical-desc">
+                                <div>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus, ipsum veniam
+                                    suscipit eos
+                                    quidem earum tempore natus exercitationem labore rem explicabo deleniti delectus
+                                    alias hic.
+                                    Veritatis doloremque hic voluptatum ad?
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                    <div class="vertical">
+                        <img class="img-top"
+                            src="C:\Users\shekh\Downloads\—Pngtree—3d illustration of character website_13029763.png"
+                            alt="">
+                        <div class="vertical-title">Frontend Developer (2024)</div>
+                        <span>
+                            <div class="vertical-desc">
+                                <div>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit fuga molestias
+                                    possimus unde animi?
+                                    Necessitatibus aliquid dolorem consequuntur voluptate quo, similique saepe earum
+                                    quia, voluptatem tenetur
+                                    quos, in ut blanditiis.
+                                </div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+
+        </div>
+        </section>
+        </div>
+        <div class="third">
+            <div class="footer">
+                <ul>
+                    <li>
+                        <h1 class="heading">
+                            <span>Shekhar's Portfolio</span>
+                        </h1>
+
+                    </li>
+                </ul>
+
+                <div class="middle">
+                    <ul>
+                        <li>Home </li>
+                        <li>About</li>
+                        <li>Services </li>
+                        <li>Projects </li>
+                        <li>Contact Me</li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <div>About me</div>
+                    <div>Email:- shekhartayde410@gmail.com</div>
+                    <div>Mob no:-9975832014</div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Web Developer", "Traveller"],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
